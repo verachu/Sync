@@ -1,0 +1,9 @@
+html, body {
+  overflow-x:hidden;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #333333;
+}
+
