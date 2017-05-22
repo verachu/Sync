@@ -7,11 +7,12 @@ body {
   color: #333333;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family:'Open Sans', Helvetica, sans-serif;
+
+h1 {
+  font-family: 'Open Sans Light', Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 36px;
 }
-
-
 
 h2 {
   font-size:24px;
@@ -22,6 +23,10 @@ p{
   font-size: 16px;
   line-height: 19px;
   font-weight:100px;
+}
+
+.front-image {
+  width: 600px;
 }
 
 /*grid*/
@@ -41,6 +46,7 @@ p{
 
 .container:after {
   clear: both;
+ 
 }
 
 .one-half, .one-third, .one-fourth {
@@ -50,3 +56,120 @@ p{
   min-height: 1px;
   margin: 0 2% 20px;
 }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+}
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    width: ;
+  }
+}
+
+ /*header*/
+ header {
+   color:#FFFFFF;
+   background: #43C8ED;
+ }
+
+ header nav {
+   padding:1em 0;
+ }
+ header nav ul {
+   display:inline;
+   text-align: right;
+   float:right;
+   margin:0;
+ }
+ header nav ul > li {
+   list-style-type: none;
+   display: inline-block;
+   margin:0 15px;
+ }
+ header nav ul > li.btn-outline {
+   padding:10px 25px;
+   border:1px solid #FFFFFF;
+   border-radius: 50px;
+ }
+ header nav ul > li.btn-outline:hover {
+   background:#FFFFFF;
+ }
+ header nav ul > li > a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ header nav ul > li.btn-outline:hover > a {
+   color:#34495E;
+ }
+
+ header .hero {
+   text-align: center;
+   display:block;
+   position: relative;
+ }
+ header .hero h1 {
+   font-size:48px;
+   font-weight: 100;
+ }
+ header .hero p {
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:10px 0 40px;
+ }
+ header .hero img {
+   display: block;
+   margin:3em auto 0;
+ }
+
+  /* BUTTONS */
+ .btn {
+   border-radius: 50px;
+   color:#FFFFFF;
+   font-weight: 100;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #FF8360;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
