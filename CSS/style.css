@@ -9,8 +9,7 @@ body {
 
 
 h1 {
-  font-family: 'Open Sans Light', Helvetica, sans-serif;
-  font-weight: 100;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 36px;
 }
 
@@ -59,42 +58,6 @@ p{
   position: relative;
   min-height: 1px;
   margin: 0 2% 20px;
-}
-
-
-@media (max-width: 600px) {
-  .front-image {
-    width: 400px;
-  }
-}
-
-@media (max-width: 450px) {
-  .front-image {
-    width: 200px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-
-@media (min-width: 992px) {
-   .container {
-     width: 970px;
-   }
-}
- @media (min-width: 1200px) {
-   .container {
-     width: 1170px;
-   }
-}
-
-@media (min-width: 1920px) {
-  .container {
-    width: 1900px;
-  }
 }
 
  /*header*/
@@ -163,8 +126,43 @@ p{
    background: #FF8360;
  }
 
+@media (max-width: 600px) {
+  .front-image {
+    width: 400px;
+  }
+}
 
+@media (max-width: 450px) {
+  .front-image {
+    width: 200px;
+  }
+}
 
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+}
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+}
+
+@media (min-width: 5000px) {
+  .container {
+    width: 4000px;
+  }
+  .header .hero h1 {
+    font-size: 200px;
+  }
+}
 
 
 
