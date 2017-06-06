@@ -284,8 +284,6 @@ p{
   /* FOOTER */
  footer {
    background-color: #34495E;
-   background-image: linear-gradient(to top,
-      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
    color: #FFFFFF;
    height: 150px;
    position: relative;
@@ -339,6 +337,17 @@ p{
    .container {
      width: 970px;
    }
+
+   .one-half {
+     width: 46%;
+   }
+
+   .one-third {
+     width: 29.33%;
+   }
+
+   .one-fourth {
+     width: 21%
 }
  @media (min-width: 1200px) {
    .container {
