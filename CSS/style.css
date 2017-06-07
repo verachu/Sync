@@ -141,7 +141,7 @@ p{
  
  .benefits p {
   margin: 18px auto;
-  width: 65%;
+  width: 70%;
   font-weight: 100;
   color: #9B9B9B;
   line-height: 22px;
@@ -159,7 +159,7 @@ p{
    padding:4em 0;
  }
  .pricing h2 {
-   color:#4A4A4A;
+   color:#;
    font-weight: 200;
    font-size: 32px;
  }
@@ -247,35 +247,23 @@ p{
    text-align: center;
  }
  .testimonials h2 {
-   color:#3498DB;
+   color:#4A4A4A;
+   font-weight: 200;
+   font-size: 32px;
  }
  .testimonials ul li {
    list-style-type: none;
  }
  .testimonials blockquote {
-   color:#FFFFFF;
+   font-weight: 200;
+   color:#9B9B9B;
    text-align: left;
-   font-style: italic;
-   background:#34495E;
    position: relative;
    padding:30px;
    width:auto;
    margin:0;
  }
- .testimonials blockquote:after {
-   top: 100%;
-   left: 13%;
-   border: solid transparent;
-   content: " ";
-   height: 0;
-   width: 0;
-   position: absolute;
-   pointer-events: none;
-   border-top-color: #34495E;
-   border-width: 10px;
-   margin-left: -10px;
- }
- 
+
   .testimonials img {
    height: 65px;
    width: 65px;
@@ -292,6 +280,21 @@ p{
    margin-top: 30px;
  }
  
+  /* CALLTOACTION */ 
+ .calltoaction {
+     text-align: center ;
+ }
+ 
+ .title {
+     font-weight: 200;
+     font-size: 32px;
+     color:#4A4A4A;
+ }
+ 
+ .color {
+     color:#9B9B9B;
+ }
+ 
   /* FOOTER */
  footer {
    background-color: #34495E;
@@ -306,6 +309,7 @@ p{
    font-weight:100;
    text-align: center;
    margin: 10px auto 0;
+   
  }
  footer nav ul li {
    list-style-type: none;
