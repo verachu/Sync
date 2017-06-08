@@ -369,10 +369,22 @@ p{
    .one-third {
      width: 29.33%;
    }
+   
+    footer{
+     background-color: #43C8ED;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+ 
+   }
+   footer .right-footer-block {
+     background-color: #43C8ED;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
+ }
 
-   .one-fourth {
-     width: 21%
-}
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
@@ -388,21 +400,7 @@ p{
   }
 }
 
-@media (min-width: 992px){
-   footer{
-     background-color: #43C8ED;
-   }
-   footer p, footer nav ul{
-     padding: 2em 0;
- 
-   }
-   footer .right-footer-block {
-     background-color: #43C8ED;
-   }
-   footer .logo{
-     padding: 2em 0 2em 1.5em;
-   }
- }
+
 
 
 
