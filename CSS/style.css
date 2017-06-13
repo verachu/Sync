@@ -336,6 +336,49 @@ p{
    margin: 0 auto;
    display: block;
  }
+
+ /*Image.html*/
+
+ .top-nav {
+  height: 70px;
+  background-color: #43C8ED;
+  overflow: hidden;
+
+ }
+
+.fa {
+  color: #FFFFFF;
+  padding-left: 25px;
+}
+
+.top-nav-images {
+  margin-right: 40px;
+  display: inline-block;
+  float:right;
+  padding-top: 23px;
+}
+.top-nav-images img {
+  height: 20px;
+  margin: 0 5px;
+}
+
+.top-text {
+  color: #FFFFFF;
+  font-weight: 100;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0px;
+  padding-top: 23px;
+  padding-left: 30px;
+}
+
+.images-all-photos {
+  height: 200px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+
+}
  
  
  /*MEDIA QUERY*/
