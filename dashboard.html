@@ -18,38 +18,74 @@
 <body class="dashboard">
     <!-- LEFT NAV -->
     <nav class="left-nav">
-        <img src="Images/site-logo.png" class="site-logo" alt="Sync">
+        <a href="#"><img src="Images/logo.svg" class="site-logo" alt="Sync"></a>
     <div class="items">
         <ul>
-            <li><a href="#"><i class="fa fa-th-large"></i>Recent</a></li>
-            <li><a href="#"><i class="fa fa-file-o"></i>All Items</a></li>
-            <li><a href="#"><i class="fa fa-picture-o"></i>Files</a></li>
-            <li><a href="#"><i class="fa fa-link"></i>Images</a></li>
-            <li><a href="#"><i class="fa fa-link"></i>Links</a></li>
-            <li><a href="#"><i class="fa fa-link"></i>Setting</a></li>
-       </ul>
+            <li><a href="#"><img src="Images/Recent.svg" alt="Recent"> Recent</a></li>
+            <li><a href="#"><img src="Images/All Items.svg" alt="All Items"> All Items</a></li>
+            <li><a href="#"><img src="Images/Images.svg" alt="Images"> Images</a></li>
+            <li><a href="#"><img src="Images/Notes.svg" alt="Notes" id="left-nav-notes"> Files</a></li>
+            <li><a href="#"><img src="Images/Links.svg" alt="Links"> Links</a></li>
+        </ul>
+    </div>
+    <div class="left-nav-setting">
+        <a href="#"><img src="Images/Settings.svg" alt="Settings" class="nav-setting"><Setting></a>
     </div>
     </nav>
-    <main role="main">
     <!-- Content!-->
-        <h2 class="title">All Items</h2>
-        <div class="content">
+        <section class="content"> 
+        <div class="content-header">
+            <h2>All Items</h2>
+            <form>
+                <input type="text" placeholder="Search" required>
+            </form>
+        </div>
+        <div class="content-header-bottom">
             <ul>
-                <li class="content-text">airbnb.com</li>
-                <li class="content-text">Why strong inspiration is great</li>
-                <li class="content-text">office.png</li>
-                <li class="content-text">Designer portfolio</li>
+                <li><a href="#" class="nav-btn">+</a></li>
+                <li class="content-tab">Date Modified</li>
+                <li class="content-tab">Sort</li>
             </ul>
         </div>
-        <div class="date">
+        <div class="content-top-line"></div>
+        <div class="content-main-file">
             <ul>
-                <li class="content-date">4/23/2017</li>
-                <li class="content-date">1/15/2017</li>
-                <li class="content-date">3/17/2017</li>
-                <li class="content-date">2/15/2017</li>
+                <li>
+                    <img src="Images/Links-blue.svg" alt="Link">
+                    <a href="#">airbnb.com</a>
+                    <p>4/23/2017</p>
+                </li>
+        </div>
+        <div class="content-middle-line"></div>
+        <div class="content-main-file">
+            <ul>
+                <li>
+                    <img src="Images/Files-blue.svg" alt="Note">
+                    <a href="#">Why strong inspiration is great</a>
+                    <p>1/15/2017</p>
+                </li>
+        </div>
+        <div class="content-middle-line"></div>
+        <div class="content-main-file">
+            <ul>
+                <li>            
+                    <img src="Images/Images-blue.svg" alt="Image">
+                    <a href="#">office.png</a>
+                    <p>3/17/2017</p>
+                </li>
+            <ul>
+        </div>
+        <div class="content-middle-line"></div>
+        <div class="content-main-file">
+            <ul>
+                <li>
+                    <img src="Images/Files-blue.svg" alt="Note">
+                    <a href="#">Need designers to design</a>
+                    <p>2/15/2017</p>
+                </li>
             </ul>
         </div>
-        <p class="btn">+</p>
+        </section>
 </body>
 </html>
   

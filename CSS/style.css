@@ -339,6 +339,11 @@ p{
 
  /*Dashboard*/
 
+
+.dashboard {
+  background:#FDFDFD;
+}
+
  .left-nav {
      height: 100vh;
      width: 10%;
@@ -349,18 +354,157 @@ p{
      position: fixed;
  }
 
+
 .site-logo {
-    padding: 20px 15px;
+    padding: 20px 18px;
     display: block;
     width: 70%; 
 }
 
+.left-nav ul {
+  padding-left: 10px;
+}
+
+.left-nav ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.left-nav ul li a {
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.left-nav .items ul li img {
+  height: 25px;
+  vertical-align: middle;
+}
+
+#left-nav-notes {
+  padding-right: 4px;
+
+}
+
+.left-nav .items ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 100;
+}
 
 
+.left-nav .items ul li a:active {
+  color: #7B858A;
+}
 
 
+.left-nav-setting img {
+  height: 25px;
+  display: block;
+  margin: auto;
+  padding-top: 180px;
+}
+
+/*Content*/
+
+.content {
+  margin: 20px auto auto 200px;
+  position: relative;
+}
+
+.nav-btn {
+   display: inline-block;
+   border-radius: 50%;
+   color:#FFFFFF;
+   font-weight: 100;
+   text-decoration: none;
+   background: #FF8360;
+   height: 50px;
+   width: 50px;
+   text-align: center;
+   line-height: 50px;
+   float: right;
+   margin-right: 10%;
+ }
 
 
+.content-header h2 {
+  display: inline;
+  color: #7B858A;
+  font-weight: 100;
+}
+
+
+.content-header form {
+  display: inline;
+  float: right;
+  margin-right: 10%;
+
+}
+
+input::placeholder {
+  font-family: "Open-Sans";
+}
+/*How do I change the font to Open Sans? It doesn't seem like it's working*/
+
+.content-header-bottom ul li:first-child {
+  list-style: none;
+  height: 18px;
+}
+
+
+.content-tab {
+  text-decoration: none;
+  display: inline-block;
+  color: #7B858A;
+  font-weight:100;
+  font-size: 14px;
+  float: right;
+  margin-right: 10%;
+
+}
+
+
+.content-main-file ul li {
+  list-style: none;
+  padding: 8px 0;
+  vertical-align: middle;
+}
+
+.content-main-file li a {
+  text-decoration: none;
+  color: #7B858A;
+  font-weight: 100;
+  padding-left: 20px;
+}
+
+.content-main-file li p {
+  display: inline;
+  font-size: 14px;
+  color: #7B858A;
+  font-weight: 100;
+  float:right;
+  margin: 0 26.5% 0 0;
+  padding-top: 5px;
+}
+
+
+.content-main-file li img {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.content-top-line {
+  width: 90%;
+  height: 1px;
+  background-color: #9B9B9B;
+  margin-top: 40px;
+}
+
+.content-middle-line {
+  width: 90%;
+  height: 1px;
+  background-color: #D6D4D7;
+}
 
  /*Image.html*/
 
