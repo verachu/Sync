@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link rel="stylesheet" type="text/css" href="CSS/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="CSS/animate.css">
+    <link rel="stylesheet" type="text/css" href="CSS/dropit.css">
 </head>
 
 <body class="dashboard">
@@ -41,8 +42,15 @@
             </form>
         </div>
         <div class="content-header-bottom">
-            <ul>
-                <li><a href="#" class="nav-btn">+</a></li>
+            <ul class="menu">
+                <li>
+                    <a href="#" class="nav-btn">+</a>
+                        <ul>
+                          <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+                          <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
+                          <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
+                        </ul>
+                </li>
                 <li class="content-tab">Date Modified</li>
                 <li class="content-tab">Sort</li>
             </ul>
@@ -86,6 +94,8 @@
             </ul>
         </div>
         </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script src="JS/dropit.js"></script>
 </body>
 </html>
   
