@@ -11,18 +11,54 @@
 .dropit {
     list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 15px 0 0;
 }
+
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
     position: absolute;
     top: 100%;
-    left: 0; /* dropdown left or right */
+    right: 70px; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 150px;
+    width: 100px;
     list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 20px 0 0;
 }
-.dropit .dropit-open .dropit-submenu { display: block; }
+.dropit .dropit-open .dropit-submenu { 
+    display: block; 
+    background: #FDFDFD;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+    text-align: center;
+}
+
+ .dropit .dropit-open .dropit-submenu:after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-width: 0 8px 8px;
+  border-color: #FDFDFD transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -8px;
+  right: 10px;
+
+ }
+
+ .dropit .dropit-open .dropit-submenu li {
+  display: block;
+  padding: 15px;
+ }
+ .dropit .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 0px;
+ }
+ .dropit .dropit-open .dropit-submenu li a {
+  color:#7B858A;
+  text-decoration: none;
+  font-family: "Open-Sans", Helvetica, Arial, sans-serif;
+  font-weight:100;
+  font-size: 14px;
+ }

@@ -17,7 +17,9 @@
 </head>
 
 <body class="dashboard">
-    <!-- LEFT NAV -->
+    <!-- Responsive Nav -->
+    <a class="hamburger" id="menu" href="#">&#9776;</a>
+    <!-- Left Nav -->
     <nav class="left-nav">
         <a href="#"><img src="Images/logo.svg" class="site-logo" alt="Sync"></a>
     <div class="items">
@@ -45,11 +47,11 @@
             <ul class="menu">
                 <li>
                     <a href="#" class="nav-btn">+</a>
-                        <ul>
-                          <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
-                          <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
-                          <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
-                        </ul>
+                    <ul class="menu">
+                      <li><a href="#">Files</a></li>
+                      <li><a href="#">Images</a></li>
+                      <li><a href="#">Links</a></li>
+                    </ul>
                 </li>
                 <li class="content-tab">Date Modified</li>
                 <li class="content-tab">Sort</li>
@@ -63,6 +65,7 @@
                     <a href="#">airbnb.com</a>
                     <p>4/23/2017</p>
                 </li>
+            </ul>
         </div>
         <div class="content-middle-line"></div>
         <div class="content-main-file">
@@ -72,6 +75,7 @@
                     <a href="#">Why strong inspiration is great</a>
                     <p>1/15/2017</p>
                 </li>
+            </ul>
         </div>
         <div class="content-middle-line"></div>
         <div class="content-main-file">
@@ -81,7 +85,7 @@
                     <a href="#">office.png</a>
                     <p>3/17/2017</p>
                 </li>
-            <ul>
+            </ul>
         </div>
         <div class="content-middle-line"></div>
         <div class="content-main-file">
@@ -96,6 +100,12 @@
         </section>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
     <script src="JS/dropit.js"></script>
+    <script type="text/javascript">
+    $(".menu").dropit();
+    $( "#menu" ).click(function() {
+         $(".left-nav").toggleClass("open", 200);
+     });
+    </script>
 </body>
 </html>
   
