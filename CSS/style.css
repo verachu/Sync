@@ -444,7 +444,7 @@ p{
   padding: 10px;
 }
 
-.left-nav ul li a {
+.items-li {
   line-height: 40px;
   font-size: 14px;
 }

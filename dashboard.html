@@ -24,15 +24,23 @@
         <a href="#"><img src="Images/logo.svg" class="site-logo" alt="Sync"></a>
     <div class="items">
         <ul>
-            <li><a href="#"><img class="items-img"src="Images/Recent.svg" alt="Recent"><span class="items-text"> Recent</span></a></li>
-            <li><a href="#"><img src="Images/All Items.svg" alt="All Items"><span class="items-text"> All Items</span></a></li>
-            <li><a href="#"><img src="Images/Images.svg" alt="Images"><span class="items-text"> Images</span></a></li>
-            <li><a href="#"><img src="Images/Notes.svg" alt="Notes" id="left-nav-notes"><span class="items-text"> Files</span></a></li>
-            <li><a href="#"><img src="Images/Links.svg" alt="Links"><span class="items-text"> Links</span></a></li>
+            <li><a class="items-li" href="#"><img class="items-img"src="Images/Recent.svg" alt="Recent"><span class="items-text"> Recent</span></a></li>
+            <li><a class="items-li" href="#"><img src="Images/All Items.svg" alt="All Items"><span class="items-text"> All Items</span></a></li>
+            <li><a class="items-li" href="#"><img src="Images/Images.svg" alt="Images"><span class="items-text"> Images</span></a></li>
+            <li><a class="items-li" href="#"><img src="Images/Notes.svg" alt="Notes" id="left-nav-notes"><span class="items-text"> Files</span></a></li>
+            <li><a class="items-li" href="#"><img src="Images/Links.svg" alt="Links"><span class="items-text"> Links</span></a></li>
         </ul>
     </div>
     <div class="left-nav-setting">
-        <a href="#"><img src="Images/Settings.svg" alt="Settings" class="nav-setting"><Setting></a>
+        <ul class="pop-up">
+            <li>
+                <a href="#"><img src="Images/Settings.svg" alt="Settings" class="nav-setting"><Setting></a>
+                <ul>    
+                  <li><a href="#">Account</a></li>
+                  <li><a href="#">Setting</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
     </nav>
     <!-- Content!-->
@@ -47,7 +55,7 @@
             <ul class="menu">
                 <li>
                     <a href="#" class="nav-btn">+</a>
-                    <ul class="menu">
+                    <ul>    
                       <li><a href="#">Files</a></li>
                       <li><a href="#">Images</a></li>
                       <li><a href="#">Links</a></li>
@@ -102,6 +110,7 @@
     <script src="JS/dropit.js"></script>
     <script type="text/javascript">
     $(".menu").dropit();
+    $(".pop-up").dropit();
     $( "#menu" ).click(function() {
          $(".left-nav").toggleClass("open", 200);
      });

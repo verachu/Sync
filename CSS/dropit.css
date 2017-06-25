@@ -34,19 +34,6 @@
     text-align: center;
 }
 
- .dropit .dropit-open .dropit-submenu:after {
-  content: " ";
-  position: absolute;
-  border-style: solid;
-  border-width: 0 8px 8px;
-  border-color: #FDFDFD transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
-  top: -8px;
-  right: 10px;
-
- }
 
  .dropit .dropit-open .dropit-submenu li {
   display: block;
@@ -62,3 +49,13 @@
   font-weight:100;
   font-size: 14px;
  }
+
+
+
+ .left-nav-setting .dropit-submenu {
+    top: auto;
+    bottom: 50px;
+    right: auto;
+ }
+
+
