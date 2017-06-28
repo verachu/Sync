@@ -189,7 +189,6 @@ p{
 
  .box.middle {
    min-height: 465px;
-   width: 85%;
    margin-top:0px;
  }
 
@@ -515,10 +514,10 @@ p{
 
 }
 
-input::placeholder {
-  font-family: "Open-Sans";
+::placeholder {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 100;
 }
-/*How do I change the font to Open Sans? It doesn't seem like it's working*/
 
 .content-header-bottom ul li:first-child {
   list-style: none;
@@ -730,8 +729,6 @@ input::placeholder {
     font-size: 200px;
   }
 }
-
-
 
 
 
